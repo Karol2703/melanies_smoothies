@@ -1,6 +1,5 @@
 # requirements.txt
-snowflake-snowpark-python
-panda
+snowflake-panda-python
 streamlit
 requests
 
