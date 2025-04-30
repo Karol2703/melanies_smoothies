@@ -1,5 +1,4 @@
 # requirements.txt
-pip install "snowflake-connector-python[pandas]"
 snowflake-snowpark-python
 streamlit
 requests
