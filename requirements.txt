@@ -1,6 +1,7 @@
 # requirements.txt
 snowflake-snowpark-python
-snowflake-panda-python
+#snowflake-pandas-python
 streamlit
 requests
+snowflake-snowpark-python[modin]
 
