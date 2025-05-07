@@ -1,6 +1,8 @@
 # Import python packages
 import modin.pandas as pd
 import snowflake.snowpark.modin.plugin
+from snowflake.snowpark.session import Session
+session = Session.builder.create()
 import streamlit as st
 from snowflake.snowpark.functions import col
 import requests
