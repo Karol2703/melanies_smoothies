@@ -22,8 +22,7 @@ my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT
 #st.stop()
 
 #Convert the Snowpark Dataframe to Panda Dataframe so we can the LOC function
-pd_df = pd.read_snowflake(my_dataframe)
-#my_dataframe.to_pandas()
+pd_df = pd.DataFrame(my_dataframe)
 #st.dataframe(pd_df)
 #st.stop()
 
